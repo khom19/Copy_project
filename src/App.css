@@ -5,3 +5,24 @@ body {
 .text {
   color: aliceblue;
 }
+
+.icon {
+  color: white;
+}
+
+.youtube{
+  width: fit-content;
+  height: fit-content;
+}
+
+.youtube_icon {
+  background-image: url('./img/youtube.png');
+  width: auto;
+  height: auto;
+  color: red;
+}
+
+.youtube_name {
+  color: white;
+  font-weight: 400;
+}
