@@ -1,28 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 body {
   background-color: black;
 }
 
-.text {
-  color: aliceblue;
+.menu {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 1%;
+}
+
+.menu_icon {
+  display: flex;
+  align-items: center;
+  width: auto;
+  margin-left: 1%;
 }
 
 .icon {
   color: white;
 }
 
-.youtube{
-  width: fit-content;
-  height: fit-content;
-}
-
 .youtube_icon {
-  background-image: url('./img/youtube.png');
-  width: auto;
-  height: auto;
+  margin-right: 1px;
+  height: fit-content;
   color: red;
 }
 
 .youtube_name {
+  display: flex;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
   color: white;
-  font-weight: 400;
+  font-weight: 600;
+  font-size: 22.5px;
+}
+
+.language {
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  font-weight: 100;
+  margin-top: -5px;
+  margin-left: 2px;
 }
