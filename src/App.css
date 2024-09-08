@@ -16,6 +16,13 @@ body {
   align-items: center;
   width: auto;
   margin-left: 1%;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.menu_icon:hover {
+  background-color: rgb(44, 44, 44);
+  border-radius: 40px;
 }
 
 .icon {
@@ -35,6 +42,7 @@ body {
   color: white;
   font-weight: 600;
   font-size: 22.5px;
+  cursor: pointer;
 }
 
 .language {
@@ -43,4 +51,31 @@ body {
   font-weight: 100;
   margin-top: -5px;
   margin-left: 2px;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search_input {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  color: white;
+  border: 1px solid rgb(44, 44, 44);
+  background-color: black;
+  padding: 7.5px;
+  padding-left: 10px;
+  border-radius: 40px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.search_input::placeholder {
+ font-size: 16px;
+}
+
+.search_icon {
+  color: white;
 }
