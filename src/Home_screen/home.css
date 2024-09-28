@@ -112,7 +112,72 @@ body {
 }
 
 .microphone_icon{
-    width: auto;
-    height: auto;
-    color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  height: auto;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+  margin-left: 15px;
+  background-color: rgb(44, 44, 44);
+  border-radius: 40px;
+}
+
+.microphone_icon:hover{
+  background-color: rgb(61, 61, 61);
+  border-radius: 40px;
+}
+
+.create_notification_profile {
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.create{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  height: auto;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  gap: 5px;
+  padding: 7.5px;
+  padding-left: 12.5px;
+  padding-right: 12.5px;
+  background-color: rgb(44, 44, 44);
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.create:hover{
+  background-color: rgb(61, 61, 61);
+  border-radius: 20px;
+}
+
+.notification {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  height: fit-content;
+  padding: 7.5px;
+  cursor: pointer;
+}
+
+.notification:hover {
+  background-color: rgb(44, 44, 44);
+  border-radius: 40px;
+}
+
+.notification_icon {
+  color: white;
 }

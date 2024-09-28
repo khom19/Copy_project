@@ -4,7 +4,8 @@ import { RxHamburgerMenu } from "react-icons/rx";
 import { FaYoutube } from "react-icons/fa";
 import { CiSearch } from "react-icons/ci";
 import { useState } from 'react';
-import { HiMiniMicrophone } from "react-icons/hi2";
+import { HiMiniMicrophone , HiOutlinePlus } from "react-icons/hi2";
+import { IoIosNotificationsOutline , IoIosNotifications } from "react-icons/io";
 
 function Homepage(){
     const [Input , setInput] = useState([]) ;
@@ -28,7 +29,19 @@ function Homepage(){
               <CiSearch className='search_icon' size={25}/>
             </div>
             <div className="microphone">
-                <HiMiniMicrophone className="microphone_icon" size={22.5}/>
+              <HiMiniMicrophone className="microphone_icon" size={20}/>
+            </div>
+          </div>
+          <div className="create_notification_profile">
+            <div className="create">
+              <HiOutlinePlus className="create_icon" size={25} />
+              สร้าง
+            </div>
+            <div className="notification">
+              <IoIosNotifications className="notification_icon" size={27.5} />
+            </div>
+            <div className="profile">
+              
             </div>
           </div>
         </div>
