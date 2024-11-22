@@ -4,8 +4,12 @@ import { RxHamburgerMenu } from "react-icons/rx";
 import { FaYoutube } from "react-icons/fa";
 import { CiSearch } from "react-icons/ci";
 import { useState } from 'react';
-import { HiMiniMicrophone , HiOutlinePlus } from "react-icons/hi2";
-import { IoIosNotificationsOutline , IoIosNotifications } from "react-icons/io";
+import { HiMiniMicrophone } from "react-icons/hi2";
+import { IoIosNotificationsOutline } from "react-icons/io";
+import { PiVideoCameraLight } from "react-icons/pi";
+import { CgProfile } from "react-icons/cg";
+import { TiHome } from "react-icons/ti";
+
 
 function Homepage(){
     const [Input , setInput] = useState([]) ;
@@ -34,15 +38,27 @@ function Homepage(){
           </div>
           <div className="create_notification_profile">
             <div className="create">
-              <HiOutlinePlus className="create_icon" size={25} />
-              สร้าง
+              <PiVideoCameraLight className="create_icon" size={27.5} />
+              <a className="plus">
+                +
+              </a>
             </div>
             <div className="notification">
-              <IoIosNotifications className="notification_icon" size={27.5} />
+              <IoIosNotificationsOutline className="notification_icon" size={27.5} />
             </div>
             <div className="profile">
-              
+              <CgProfile className="profile_icon" size={25} />
             </div>
+          </div>
+        </div>
+        <div className="menu-left">
+          <div className="main-shorts-subscribe-music">
+            <div className="main">
+              <TiHome className="main_icon" size={27.5} />
+            </div>
+            <div className="shorts"></div>
+            <div className="subscribe"></div>
+            <div className="music"></div>
           </div>
         </div>
       </div>

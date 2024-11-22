@@ -72,7 +72,7 @@ body {
 
 .search_input {
   z-index: 1;
-  width: 25vw;
+  width: 32.5vw;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   color: rgb(212, 212, 212);
@@ -109,6 +109,7 @@ body {
   border-radius: 40px;
   border-top-left-radius: 0px;
   border-bottom-left-radius: 0px;
+  cursor: pointer;
 }
 
 .microphone_icon{
@@ -151,16 +152,23 @@ body {
   font-weight: bold;
   gap: 5px;
   padding: 7.5px;
-  padding-left: 12.5px;
-  padding-right: 12.5px;
-  background-color: rgb(44, 44, 44);
-  border-radius: 20px;
+  padding-left: 8.5px;
   cursor: pointer;
 }
 
 .create:hover{
-  background-color: rgb(61, 61, 61);
-  border-radius: 20px;
+  background-color: rgb(44, 44, 44);
+  border-radius: 40px;
+}
+
+.create .plus{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  font-size: 14px;
+  padding-right: 11.5px;
+  margin-left: -24.5px;
 }
 
 .notification {
@@ -180,4 +188,27 @@ body {
 
 .notification_icon {
   color: white;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  padding: 7.5px;
+  cursor: pointer;
+  padding-left: 8.5px;
+  padding-right: 8.5px;
+  margin-right: 20px;
+}
+
+.profile:hover{
+  background-color: rgb(44, 44, 44);
+  border-radius: 40px;
+}
+
+.menu-left {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: rgb(212, 212, 212);
 }
